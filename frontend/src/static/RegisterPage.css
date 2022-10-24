@@ -1,0 +1,14 @@
+#register-page{
+    text-align: center;
+    
+}
+
+#register-page form{
+    width: 80%;
+    max-width: 400px;
+    margin: auto;
+}
+
+#register-page form button{
+    float: right;
+}

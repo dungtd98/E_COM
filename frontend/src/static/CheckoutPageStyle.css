@@ -1,0 +1,26 @@
+#order-summary {
+    max-height: 80%;
+    overflow: auto;
+}
+#order-summary tr img{
+    height: 100px;
+    width: auto;
+}
+
+#form-btn-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+#form-btn-wrapper .btn{
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+#form-btn-wrapper .btn:hover{
+    color: red;
+    background-color: rgb(69, 51, 231);
+}
+
+#form-btn-wrapper .submit-btn{
+    background-color: #8ef1e3;
+}

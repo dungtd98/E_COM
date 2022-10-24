@@ -1,0 +1,42 @@
+#item-detail{
+    height: calc(100vh - 62px);
+    
+}
+
+#item-detail .row{
+    transform: translateY(20%);
+}
+
+#item-detail .row .item-image .card{
+    margin-left: auto;
+}
+
+.item-infor .card .minus,
+.item-infor .card .plus{
+    width: 30px;
+    height: 30px;
+    font-weight: 800;
+    border: 2px solid #000;
+
+    margin-right: 5px;
+}
+.item-infor .card .minus:active,
+.item-infor .card .plus:active{
+    color: red;
+    background-color: aqua;
+}
+.item-infor .card input{
+    text-align: center;
+    width: 50px;
+    margin-right: 5px;
+    outline: none;
+    
+}
+
+.item-infor .card .add-cart-btn{
+    float: right;
+}
+
+.item-infor #item-detail-log{
+    margin-top: 20px;
+}

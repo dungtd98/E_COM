@@ -1,0 +1,11 @@
+.card{
+    box-shadow: hsl(0, 0%, 80%) 0 0 16px;
+    background-color: #fff;
+    border-radius: 0 0 4px 4px;
+    padding: 10px;
+}
+
+.item-price{
+    /* display: inline-block; */
+    float: right;
+}

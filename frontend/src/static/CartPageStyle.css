@@ -1,0 +1,30 @@
+#checkout-btn{
+    float: right;
+    margin: 5px;
+}
+
+#cart-item-table tr{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr 1fr 1fr;
+}
+
+#cart-item-table tr img{
+    height: 100px;
+    width: auto;
+}
+#cart-item-table tr th,
+#cart-item-table tr td{
+    text-align: center;
+}
+#cart-item-table .item-quantity{
+    width: 40px;
+    text-align: center;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+#cart-item-table .plus-btn,
+#cart-item-table .minus-btn{
+    height: 30px;
+    width: 30px;
+}

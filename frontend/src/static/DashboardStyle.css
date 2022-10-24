@@ -1,0 +1,64 @@
+#orders-table li{
+    display: flex;
+    /* border: 1px solid #000; */
+}
+#orders-table .col{
+    border: 1px solid #000;
+    text-align: center;
+}
+
+#orders-table .thead{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#orders-table .tbody.active{
+    background-color: aqua;
+}
+.order-summary{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 20px;
+    border: 1px solid #000;
+    border-top: None;
+}
+.order-summary #order-summary-table{
+    border-right: 1px solid #000;
+}
+.order-summary #order-summary-table,
+.order-summary #order-shipping-address{
+    padding: 20px;
+}
+
+.order-summary #order-summary-table .thead,
+.order-summary #order-summary-table .tbody{
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-summary #order-summary-table .thead{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.order-summary #order-summary-table .col{
+    text-align: center;
+    border-left: 1px solid #000 ;
+    border-bottom: 1px solid #000 ;
+}
+
+.order-summary #order-summary-table .thead .col{
+    border-top: 1px solid #000 ;
+}
+.order-summary #order-summary-table .col1{
+    
+    flex-basis: 50%;
+}
+.order-summary #order-summary-table .col2{
+    
+    flex-basis: 25%;
+}
+.order-summary #order-summary-table .col3{
+    border-right: 1px solid #000 ;
+    flex-basis: 25%;
+}

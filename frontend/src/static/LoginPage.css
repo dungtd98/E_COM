@@ -1,0 +1,14 @@
+#login-page{
+    text-align: center;
+    
+}
+
+#login-page form{
+    width: 80%;
+    max-width: 400px;
+    margin: auto;
+}
+
+#login-page form button{
+    float: right;
+}
